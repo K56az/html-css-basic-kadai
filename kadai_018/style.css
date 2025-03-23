@@ -1,8 +1,8 @@
 #top {
+    position: relative;
     width: 800px;
     background-color: #dcc9f4;
-    margin: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
 }
 .top-child {
@@ -43,7 +43,6 @@
     left: 500px;;
 }
 #bottom {
-    position: relative;
     width: 800px;
     height: 300px;
     margin: auto;
@@ -55,14 +54,16 @@
     background-color: #e5dcf0;
 }
 #bottom-child02 {
+    position: relative;
     width: 400px;
     height: 100px;
-    margin: auto;
+    left: 200px;
     background-color: #e5dcf0;
 }
 #bottom-child03 {
+    position: relative;
     width: 400px;
     height: 100px;
-    margin-left: auto;
+    left: 400px;
     background-color: #e5dcf0;
 }

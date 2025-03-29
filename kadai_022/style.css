@@ -57,11 +57,11 @@ footer {
 a {
     color: rgb(255, 255, 255);
 }
-a:link {
-    color: rgb(193, 234, 251);
+a:hover {
+    color: rgb(245, 178, 168);
 }
 a:visited {
-    color: rgb(245, 178, 168);
+    color: rgb(193, 234, 251);
 }
 @media screen and (max-width: 768px) {
     h2 {
@@ -71,6 +71,6 @@ a:visited {
         font-size: 25px;
     }
     #parent {
-        display: block;
+        flex-direction: column;
     }
 }
